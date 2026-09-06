@@ -1,0 +1,504 @@
+@media (max-width: 1200px) {
+
+    .main1 {
+        height: 700px;
+    }
+
+    .main3 {
+        right: 40px;
+    }
+
+    .main3 a {
+        margin-top: 60px;
+        font-size: 18px;
+    }
+
+    .btns {
+        right: 40px;
+        bottom: 40px;
+        margin: 0;
+        width: auto;
+        display: flex;
+        gap: 15px;
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 10px 20px;
+        font-size: 15px;
+        margin: 0;
+    }
+
+    .topBtn {
+        right: 30px;
+        bottom: 30px;
+        margin: 0;
+    }
+
+    .about {
+        padding: 60px 40px;
+    }
+
+    .about-content {
+        gap: 40px;
+    }
+
+    .image-container,
+    .about img {
+        width: 420px;
+        height: 420px;
+    }
+
+    .about p {
+        max-width: 500px;
+        font-size: 22px;
+    }
+
+    .best-seller {
+        height: auto;
+        min-height: 650px;
+        padding: 60px 40px;
+    }
+
+    .seller-container {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .seller-container img {
+        height: 170px;
+    }
+
+    .footer-icons ul,
+    .footer-content ul,
+    footer p {
+        padding-left: 40px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+
+    .main1 {
+        height: 650px;
+    }
+
+    .main3 {
+        right: 20px;
+    }
+
+    .main3 a {
+        margin-top: 45px;
+        padding: 7px;
+        font-size: 16px;
+    }
+
+    .btns {
+        right: 25px;
+        bottom: 30px;
+        margin: 0;
+        width: auto;
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 10px 18px;
+        font-size: 14px;
+        margin: 0;
+    }
+
+    .topBtn {
+        width: 55px;
+        height: 55px;
+        right: 25px;
+        bottom: 25px;
+        margin: 0;
+    }
+
+    .topBtn a {
+        font-size: 25px;
+    }
+
+    .about {
+        padding: 50px 30px;
+    }
+
+    .about h1 {
+        font-size: 45px;
+    }
+
+    .about h3 {
+        margin-bottom: 35px;
+    }
+
+    .about-content {
+        gap: 30px;
+    }
+
+    .image-container,
+    .about img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about p {
+        max-width: 450px;
+        font-size: 20px;
+    }
+
+    .best-seller {
+        height: auto;
+        min-height: 650px;
+        padding: 50px 30px;
+    }
+
+    .content-text-of-bestseller h1 {
+        font-size: 40px;
+    }
+
+    .content-text-of-bestseller h4 {
+        font-size: 17px;
+    }
+
+    .seller-container {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .seller-container div {
+        padding: 12px;
+    }
+
+    .seller-container img {
+        height: 150px;
+    }
+
+    .seller-container h2 {
+        font-size: 18px;
+    }
+
+    .seller-container p {
+        font-size: 12px;
+    }
+
+    .footer-icons ul,
+    .footer-content ul,
+    footer p {
+        padding-left: 30px;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .main1 {
+        height: 600px;
+    }
+
+    .main3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 20px 10px;
+    }
+
+    .main3 a {
+        margin-top: 15px;
+        padding: 6px;
+        font-size: 14px;
+    }
+
+    .btns {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 30px;
+        width: 100%;
+        margin: 0;
+        padding: 0 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 10px 18px;
+        font-size: 13px;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    .topBtn {
+        width: 50px;
+        height: 50px;
+        right: 20px;
+        bottom: 20px;
+        margin: 0;
+    }
+
+    .topBtn a {
+        font-size: 23px;
+    }
+
+    .about {
+        padding: 50px 25px;
+        min-height: auto;
+    }
+
+    .about h1 {
+        font-size: 42px;
+    }
+
+    .about h3 {
+        font-size: 16px;
+        margin-bottom: 35px;
+    }
+
+    .about-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .image-container,
+    .about img {
+        width: 350px;
+        height: 350px;
+    }
+
+    .about p {
+        max-width: 100%;
+        font-size: 20px;
+        line-height: 1.4;
+        text-align: center;
+    }
+
+    .best-seller {
+        height: auto;
+        min-height: auto;
+        padding: 50px 20px;
+    }
+
+    .content-text-of-bestseller {
+        margin-bottom: 25px;
+    }
+
+    .content-text-of-bestseller h1 {
+        font-size: 40px;
+    }
+
+    .content-text-of-bestseller h4 {
+        font-size: 17px;
+        line-height: 1.5;
+    }
+
+    .seller-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .seller-container div {
+        width: 100%;
+    }
+
+    .seller-container img {
+        height: 180px;
+    }
+
+    .seller-container h2 {
+        font-size: 19px;
+    }
+
+    .seller-container p {
+        font-size: 13px;
+    }
+
+    .footer-logo {
+        font-size: clamp(80px, 18vw, 160px);
+        letter-spacing: -6px;
+    }
+
+    .footer-icons ul {
+        padding-left: 25px;
+        gap: 30px;
+        font-size: 25px;
+    }
+
+    .footer-content ul,
+    footer p {
+        padding-left: 25px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .main1 {
+        height: 550px;
+    }
+
+    .main3 {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        padding: 15px 5px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .main3 a {
+        margin-top: 10px;
+        padding: 4px 5px;
+        font-size: 11px;
+    }
+
+    .btns {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 25px;
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .btn1,
+    .btn2 {
+        padding: 9px 13px;
+        font-size: 11px;
+        margin: 0;
+        white-space: nowrap;
+    }
+
+    .topBtn {
+        width: 45px;
+        height: 45px;
+        right: 15px;
+        bottom: 15px;
+        margin: 0;
+    }
+
+    .topBtn a {
+        font-size: 20px;
+    }
+
+    .about {
+        padding: 40px 15px;
+    }
+
+    .about h1 {
+        font-size: 36px;
+    }
+
+    .about h3 {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .about-content {
+        gap: 25px;
+    }
+
+    .image-container,
+    .about img {
+        width: 280px;
+        height: 280px;
+    }
+
+    .about p {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    .best-seller {
+        padding: 40px 15px;
+    }
+
+    .content-text-of-bestseller h1 {
+        font-size: 34px;
+    }
+
+    .content-text-of-bestseller h4 {
+        font-size: 15px;
+        line-height: 1.5;
+    }
+
+    .seller-container {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 5px;
+    }
+
+    .seller-container div {
+        width: 100%;
+    }
+
+    .seller-container img {
+        height: 210px;
+    }
+
+    .seller-container h2 {
+        font-size: 20px;
+    }
+
+    .seller-container h3 {
+        font-size: 16px;
+    }
+
+    .seller-container p {
+        font-size: 14px;
+    }
+
+    .seller-container a {
+        font-size: 14px;
+    }
+
+    .footer-logo {
+        font-size: 70px;
+        letter-spacing: -4px;
+        overflow: hidden;
+    }
+
+    .footer-icons ul {
+        padding: 15px 20px 30px;
+        gap: 20px;
+        font-size: 22px;
+        justify-content: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-content ul {
+        padding-left: 20px;
+    }
+
+    .footer-content li {
+        font-size: 14px;
+    }
+
+    footer p {
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+}

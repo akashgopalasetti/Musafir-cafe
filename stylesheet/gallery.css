@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+body {
+background-color: #f7f1e7;
+color: #2d241d;
+}
+
+header {
+width: 100%;
+height: 100px;
+padding: 0 70px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+background-color: #352a23;
+color: white;
+
+}
+
+.name h1 {
+font-family: "Dancing Script", cursive;
+font-size: 42px;
+color: #d4ac5b;
+}
+
+.list-items ul {
+display: flex;
+list-style: none;
+gap: 35px;
+}
+
+.list-items a {
+text-decoration: none;
+color: white;
+font-size: 17px;
+transition: 0.3s;
+font-size: 24px;
+}
+
+.galory-section {
+    padding: 100px 80px;
+    background-image: url("/images/home/background.jpg");
+    background-position: center;
+}
+
+.galory-heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.galory-heading span {
+    color: #a77a28;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 4px;
+}
+
+.galory-heading h2 {
+    font-family: "Dancing Script", cursive;
+    font-size: 65px;
+    color: #30251d;
+    margin: 15px 0;
+}
+
+.galory-heading p {
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+    color: #6b5b4d;
+}
+
+.gallorey-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin-left: 70px;
+}
+
+.gallorey-img {
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.gallorey-img img {
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+}
+
+.gallorey-img:hover img {
+    transform: scale(1.08);
+}
+
+.img1 {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.img2 {
+    grid-column: span 1;
+}
+
+.img3 {
+    grid-column: span 1;
+}
+
+.img4 {
+    grid-column: span 1;
+}
+
+.img5 {
+    grid-column: span 1;
+}
+
+
+
+.footer-logo {
+font-family: "Dancing Script", cursive;
+font-size: clamp(120px, 19vw, 300px);
+font-weight: 900;
+letter-spacing: -12px;
+color: #382d2d;
+text-align: center;
+white-space: nowrap;
+margin-bottom: 20px;
+}
+
+.footer-icons ul{
+padding-top:20px;
+display: flex;
+padding-bottom: 40px;
+gap: 50px;
+padding-left: 60px;
+font-size: 30px;
+color: rgb(49, 51, 52);
+}
+
+.footer-icons ul li{
+list-style-type: none;
+}
+
+.footer-content {
+display: flex;
+align-items: center;
+flex-direction: row;
+}
+
+.footer-content ul {
+padding-left: 60px;
+}
+
+.footer-content li {
+font-size: 15px;
+padding-bottom: 10px;
+list-style-type: none;
+font-weight: 200;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer p{
+padding-left: 60px;
+padding-top: 20px;
+padding-bottom: 20px;
+}

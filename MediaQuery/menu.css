@@ -1,0 +1,381 @@
+@media (max-width: 1024px) {
+    header {
+        padding: 0 40px;
+    }
+
+    .list-items ul {
+        gap: 20px;
+    }
+
+    .list-items a {
+        font-size: 20px;
+    }
+
+    .menu-hero {
+        padding: 60px 50px;
+    }
+
+    .menu-hero-container h1 {
+        font-size: 70px;
+    }
+
+    .menu-hero-container p {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .hero-image img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .coffee {
+        padding: 70px 40px;
+    }
+
+    .coffee-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .food-section {
+        height: auto;
+        padding: 50px 40px;
+    }
+
+    .food-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .food-card img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .order-section {
+        padding: 70px 50px;
+    }
+
+    .order-container h2 {
+        font-size: 65px;
+    }
+
+    .footer-icons ul,
+    .footer-content ul,
+    footer p {
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: auto;
+        min-height: 80px;
+        padding: 15px 25px;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .name h1 {
+        font-size: 35px;
+    }
+
+    .list-items ul {
+        gap: 15px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .list-items a {
+        font-size: 17px;
+    }
+
+    .menu-hero {
+        min-height: auto;
+        flex-direction: column;
+        padding: 60px 30px;
+        text-align: center;
+        gap: 40px;
+    }
+
+    .menu-hero-container {
+        width: 100%;
+    }
+
+    .menu-hero-container span {
+        font-size: 13px;
+    }
+
+    .menu-hero-container h1 {
+        font-size: 65px;
+    }
+
+    .menu-hero-container p {
+        width: 100%;
+        font-size: 23px;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    .hero-image img {
+        width: 380px;
+        height: 380px;
+    }
+
+    .coffee {
+        padding: 60px 25px;
+    }
+
+    .coffee-section {
+        margin-bottom: 40px;
+    }
+
+    .coffee-section h2,
+    .food-heading h2 {
+        font-size: 50px;
+    }
+
+    .coffee-section p,
+    .food-heading p {
+        font-size: 21px;
+    }
+
+    .coffee-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .coffee-card img {
+        height: 220px;
+    }
+
+    .food-section {
+        height: auto;
+        padding: 50px 25px;
+    }
+
+    .food-heading {
+        margin-bottom: 40px;
+    }
+
+    .food-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .food-card img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .order-section {
+        min-height: 500px;
+        padding: 60px 30px;
+    }
+
+    .order-container h2 {
+        font-size: 65px;
+    }
+
+    .order-container p {
+        font-size: 23px;
+    }
+
+    .footer-logo {
+        font-size: clamp(80px, 18vw, 160px);
+        letter-spacing: -6px;
+    }
+
+    .footer-icons ul {
+        padding-left: 25px;
+        gap: 30px;
+        font-size: 25px;
+    }
+
+    .footer-content ul,
+    footer p {
+        padding-left: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 15px 20px;
+    }
+
+    .name h1 {
+        font-size: 32px;
+    }
+
+    .list-items ul {
+        gap: 10px;
+    }
+
+    .list-items a {
+        font-size: 14px;
+    }
+
+    .menu-hero {
+        padding: 45px 20px;
+        gap: 30px;
+    }
+
+    .menu-hero-container span {
+        font-size: 11px;
+        letter-spacing: 3px;
+    }
+
+    .menu-hero-container h1 {
+        font-size: 48px;
+        margin: 18px 0;
+    }
+
+    .menu-hero-container p {
+        font-size: 20px;
+    }
+
+    .hero-image img {
+        width: 290px;
+        height: 320px;
+        border-radius: 150px 150px 25px 25px;
+    }
+
+    .coffee {
+        padding: 45px 15px;
+    }
+
+    .coffee-section {
+        margin-bottom: 30px;
+    }
+
+    .coffee-section span,
+    .food-heading span {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .coffee-section h2,
+    .food-heading h2 {
+        font-size: 42px;
+    }
+
+    .coffee-section p,
+    .food-heading p {
+        font-size: 19px;
+    }
+
+    .coffee-container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .coffee-card img {
+        height: 240px;
+    }
+
+    .coffee-card h3 {
+        font-size: 20px;
+    }
+
+    .food-section {
+        padding: 45px 15px;
+    }
+
+    .food-heading {
+        margin-bottom: 30px;
+    }
+
+    .food-container {
+        grid-template-columns: 1fr;
+    }
+
+    .food-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .food-card img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .food-card div {
+        padding: 20px;
+        align-items: center;
+    }
+
+    .food-card h3 {
+        font-size: 20px;
+    }
+
+    .food-card p {
+        font-size: 18px;
+    }
+
+    .order-section {
+        min-height: 450px;
+        padding: 50px 20px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .order-container {
+        width: 100%;
+    }
+
+    .order-container span {
+        font-size: 11px;
+        letter-spacing: 2px;
+    }
+
+    .order-container h2 {
+        font-size: 48px;
+        margin: 18px 0;
+    }
+
+    .order-container p {
+        font-size: 21px;
+        margin-bottom: 25px;
+    }
+
+    .order-container button {
+        padding: 12px 25px;
+    }
+
+    .order-container button a {
+        font-size: 17px;
+    }
+
+    .footer-logo {
+        font-size: 70px;
+        letter-spacing: -4px;
+        overflow: hidden;
+    }
+
+    .footer-icons ul {
+        padding: 15px 20px 30px;
+        gap: 20px;
+        font-size: 22px;
+        justify-content: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-content ul {
+        padding-left: 20px;
+    }
+
+    .footer-content li {
+        font-size: 14px;
+    }
+
+    footer p {
+        padding: 15px 20px;
+        font-size: 13px;
+    }
+}
