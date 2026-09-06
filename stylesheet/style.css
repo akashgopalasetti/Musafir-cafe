@@ -64,6 +64,20 @@
     cursor: pointer;
 } 
 
+.btn1 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(75, 72, 64);
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(75, 72, 64);
+}
+
+
 .btn1:hover{
 .btn1 a{
     text-decoration: none;
